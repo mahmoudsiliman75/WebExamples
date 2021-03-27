@@ -1,0 +1,34 @@
+body {
+  height: 2000px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #00af91;
+  text-align: center;
+}
+
+button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #00af91;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 25px;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+button:focus {
+  outline: none;
+}
